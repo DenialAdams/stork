@@ -4,7 +4,7 @@ import WasmQueue from "./wasmQueue";
 const prod = process.env.NODE_ENV === "production";
 
 const wasmUrl = prod
-  ? "https://files.stork-search.net/stork.wasm"
+  ? "https://www.brick.codes/cedict/stork/stork.wasm"
   : "http://127.0.0.1:8025/stork.wasm";
 
 export function loadWasm(): WasmQueue {
