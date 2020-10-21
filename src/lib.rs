@@ -8,7 +8,6 @@ use common::IndexFromFile;
 use config::Config;
 pub use index_versions::ParsedIndex;
 use index_versions::IndexParseError;
-pub use searcher::OutputResult;
 use searcher::index_analyzer::parse_index_version;
 use searcher::SearchError;
 
